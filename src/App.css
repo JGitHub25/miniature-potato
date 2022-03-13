@@ -1,0 +1,44 @@
+header {
+  background-color: #282c34;
+  color: white;
+  margin-bottom: 2rem;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+form {
+  margin: 1.6rem auto;
+  max-width: 80rem;
+  max-width: 68ch;
+  padding: 0 2rem;
+}
+
+.form-control > * + *,
+.form-control__radio + .form-control__radio {
+  margin-top: 0.5rem;
+}
+
+.form-control__radio > label {
+	margin-left: 4px;
+}
+
+.form-control__text > textarea {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.form-control__text > label {
+  display: table;
+  font-weight: 500;
+}
+
+.result {
+  display: block;
+  overflow: auto;
+  text-align: left;
+  white-space: pre;
+}
+
+.u-mt-3 {
+  margin-top: 3rem;
+}
