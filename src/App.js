@@ -28,6 +28,8 @@ function App() {
       case "lowercase":
         transformedText = textInput.toLowerCase();
         break;
+      default:
+        break;
     }
 
     setTextOutput(transformedText);
